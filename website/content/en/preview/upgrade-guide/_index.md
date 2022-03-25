@@ -4,11 +4,7 @@ linkTitle: "Upgrade Guide"
 weight: 10
 ---
 
-Karpenter is a controller that runs in your cluster, but it is not tied to a specific Kubernetes version, as the Cluster Autoscaler is.
-Use your existing upgrade mechanisms to upgrade your core add-ons in Kubernetes and keep Karpenter up to date on bug fixes and new features.
-
 To make upgrading easier we aim to minimize introduction of breaking changes with the followings:
-
 
 # Compatibility issues
 
